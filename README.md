@@ -20,4 +20,4 @@ Casual Loop Diagram Overview:
 
 Some of the key loops include the reinforcing loop that shows that more enrollment increases tuition revenue, which increases the university operating budget as well as student support services which all leads to a higher future enrollment. A balancing loop that shows where  higher enrollment reduces housing availbility and lowers student satisfaction.
 
-![alt text](<Screenshot 2026-02-03 at 8.47.20 PM.png>)
+
