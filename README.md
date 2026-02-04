@@ -18,6 +18,6 @@ Data Pool: Education & Labour
 
 Casual Loop Diagram Overview:
 
-Some of the key loops include the reinforcing loop that shows that more enrollment increases tuition revenue, which increases the university operating budget as well as student support services which all leads to a higher future enrollment. A balancing loop that shows where  higher enrollment reduces housing availbility and lowers student satisfaction.
+Some of the key loops include the reinforcing loop that shows the more enrollment increases tuition revenue, which increases the university operating budget as well as student support services which all leads to a higher future enrollment. A balancing loop that shows where  higher enrollment reduces housing availbility and lowers student satisfaction.
 
 
