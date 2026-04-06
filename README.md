@@ -24,7 +24,7 @@ The analysis evaluates two policy approaches. First, address the issue in Halifa
 - [Executive Summary](#executive-summary)
 - [Background](./background.md#background)
 - [Data Sources](./Data/README.md#university-enrollment-dataset)
-- [Data Wrangling](./wrangling.md#data-wrangling)
+- [Data Wrangling](./wrangling.md#wrangling)
 - [Exploratory Findings](./Data/README.md#exploratory-findings)
 - [System Dynamics(Causal Loop Diagram)](#final-causal-loop-diagram-overview)
 - [Analysis](#analysis)
