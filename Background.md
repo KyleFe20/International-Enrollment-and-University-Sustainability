@@ -1,4 +1,5 @@
-International Student Enrollement in Nova Scotia
+
+## International Student Enrollement in Nova Scotia
 
 Public universities in Nova Scotia have become increasingly dependent on international students as one of its main form of revenue. International enrollment have grown at a much faster rate than domestic enrollment. This growth has helped universities manage rising operating costs, support academic programs, and fund different projects for student services (Canada, 2024). Because of this dependence, International student enrollment now play a major role in helping universities cover operating costs and support student services.
 
