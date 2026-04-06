@@ -1,34 +1,108 @@
 # International-Enrollment-and-University-Sustainability
-This repository contains information on international student enrollment and examines how housing limits and tuition reliance shape university sustainability.
+This repository contains information on international student enrollment, availability, and long-term university sustainability in Nova Scotia, with a particular focus in Halifax because it is heavily saturated with universities and university students.
 
-> [!TIP]
-> See markdown cheatsheet on moodle.
 
-*Decision Statement:* Should the Nova Scotia Minister of Advanced Education reduce international student enrollment at public universities due to housing shortages and tuition dependency?
+## Decision Statement:
 
-> [!WARNING]
-> This might be hard to prove or answer because it would require you to have data on international student housing - who lives where ,and who couldn't get a place as a result (if true) - it's a counterfacual you probably can't answer.  
+Should the Nova Scotia Minister of Advanced Education reduce international student enrollment at public universities or prioritize targeted housing investments to address increasing housing pressure in high demand regions across Nova Scotia.
 
-> [!TIP]
-> Consider asking instead: Where should the minister of advanced educ. invest in housing support - where is the international student pressure that is also low rental availability.  CMHC data has some data on this.
 
-Decision Maker: Nova Scotia Minister of Advanced Education 
+## Decision Maker: 
+
+Nova Scotia Minister of Advanced Education 
 
 ## Executive Summary: 
 
-Universities in Nova Scotia depend on international Students because they are a key source of tuition revenue. International enrollment has grown at a faster rate than domestic enrollment, which helps universities cover expenses. However, this growth has increased pressure on housing, student services, and acadmic capacity.
+Universities in Nova Scotia rely heavily on international students as a primary source of tuition revenue. As international enrollment grows, institutions strengthen their financial position and expands their academic and student support services. However this growth has also intensified pressure on housing systems, especially in Halifax where student demand is highly concentrated.
 
-Many students struggle to find affordable housing, which can affect their well-being and ability to stay in university. Also, changes to immigration and study permit policies makes it harder to rely on international students. Which raises the question can these current enrollment levels be maintained?
+This project applies a systems thinking approach using the Growth and Underinvestment archetype to explain how increasing enrollment drives higher housing demand, reduces vacancy rates, and contributes to rising rental costs. Although increased housing pressure should prompt investment in additional supply, delays in planning, approvals, and construction limit the system's ability to respond effectively in the short term. As a result, housing shortages persist and they continue to increase.
 
-This project helps the Nova Scotia Minister of Advanced Education decide if international student enrollment at public universities be adjusted. By examining enrollment trends, tuition dependency, and housing shortages.
+The analysis evaluates two policy approaches. First, address the issue in Halifax by investing heavily into housing, or distribute housing support evenly across multiple university centers, including Antigonish and Cape Breton. While Both strategies contribute to gradual improvement, targeted investment in Halifax is more effective in reducing system wide housing pressure and improving long term sustainability.
+
+## Table of Contents
+- [Decision Statement](#decision-statement)
+- [Executive Summary](#executive-summary)
+- [Background](./background.md#background)
+- [Data Sources](./Data/README.md#university-enrollment-dataset)
+- [Data Wrangling](./wrangling.md#data-wrangling)
+- [Exploratory Findings](./Data/README.md#exploratory-findings)
+- [System Dynamics(Causal Loop Diagram)](#final-causal-loop-diagram-overview)
+- [Analysis](#analysis)
+- [Decision Recommendations](#decision-recommandations)
+- [Limitations and Future Work](#limitations-and-future-work)
+- [References](#references)
+- [Bar Chart](./IMG/Bar%20Chart.png)
+- [Geographic Map](./IMG/Geographic%20map.png)
+- [Line Chart](./IMG/Line%20Chart%20.png)  
+- [Scatter Plot](./IMG/Scatter%20Plot.png)
 
 
-Data Pool: Education & Labour 
+## Data Pool: 
 
-## Casual Loop Diagram Overview:
+Education & Labour 
 
-Some of the key loops include the reinforcing loop that shows the more enrollment increases tuition revenue, which increases the university operating budget as well as student support services which all leads to a higher future enrollment. A balancing loop that shows where  higher enrollment reduces housing availbility and lowers student satisfaction.
+## Final Causal Loop Diagram Overview:
 
-![Causal Loop Diagram](img/cld.png "CLD Initial Draft")
+The final causal loop diagram illustrates how international student enrollment influences housing pressure though through interacting reinforcing and balancing feedback loops. At the core of the system is the relationship between international enrollment, housing demand and housing availability.
 
+The primary reinforcing loop (R1) shows how increases in international student enrollment drive higher housing demand. As demand rises, vacancy rates decrease which increase overall housing pressure. This leads to greater competition for available units and rising rental costs. Higher rental costs can make the region less affordable, but in short term demand continues to grow which reinforces pressure within the system. This loop demonstrates how the system amplifies itself, creating sustained upward pressure on housing markets.
+ 
+The balancing loop (B1) represents the system's natural response to rising housing pressure. As housing pressure increases, it encourages greater investment in housing supply and student support services. This leads to increased housing availability which helps reduce housing pressure. However, this loop does operate with some delays due to construction, policy implementation, and resource allocation. As a result, it's often too slow to fully counteract the reinforcing effects of the rapid enrollment.
+
+Together, these loops form a growth and underinvestment structure, where demand increases faster than the system can respond. Which explains why housing shortages persist despite ongoing efforts to expand supply. The system is reactive rather than proactive which allows pressure to build over time 
+
+A key leverage point where there could potentially be a shift is strengthening high demand areas, such as Halifax. Strengthening this intervention can accelerate the balancing loop and reduce pressure. In addition to that, managing the pace of international student enrollment relative to housing capacity can help stabilize the system
+
+For the Nova Scotia Minister of Advanced Education who is the decision maker, the critical tradeoff is between bringing in more international students for revenue and making sure there is enough housing for them. International students pay higher tuition, which helps universities financially. However, if too many students come without enough housing available, it increases housing pressure, raises rent, and makes it harder for both students and local residents to find a place to live. This means the government has to balance how many students are admitted with how much housing is available. Investing in more housing, especially in high demand areas like Halifax, is the best way to reduce this problem and support long-term stability.
+
+![Causal Loop Diagram](img/FinalCLD.png"CLD Final")
+
+
+## Analysis 
+
+This analysis uses the idea of growth and underinvestment to explain why student housing in Halifax is becoming more stressed over time. As more students move to the city, the demand for housing increases, but the supply of housing does not grow fast enough to keep up. This leads to lower vacancy rates and higher rent prices, making it harder for students to find affordable places to live. Even though rising housing pressure should lead to more housing being built, there are delays in planning and construction, so the response is too slow. Because of this, the system keeps falling behind, and housing shortages continue to get worse instead of improving.
+
+The analysis compares two possible solutions which are focusing housing investment in Halifax or spreading it across multiple regions. Focusing on Halifax is more effective because it targets the area with the highest demand, which can help reduce housing pressure more quickly over time. On the other hand, spreading resources across different regions may improve conditions slightly everywhere, but it does not solve the main problem in Halifax. The best approach is to increase housing specifically in Halifax, since that is where it will have the biggest impact. However, there are still challenges, such as delays in construction, high costs, and making sure other regions are not ignored.
+
+
+## Decision Recommendations 
+
+It is recommended that the Nova Scotia Minister of Advanced Education implement a targeted housing first strategy that prioritizes expanding student housing in high pressure areas, such as Halifax also aligning with international student enrollment with available housing capacity. Rather than reducing international student enrollment across the board, a more effective approach is to manage growth alongside strategic investment in housing supply to ensure long term sustainability.
+
+The key evidence that supports this recommendation shows a strong relationship between international student enrollment and housing pressure. Areas with higher student populations, also have lower vacancy rates and higher rental costs. The Causal loop diagram highlights how this creates a reinforcing circle. While increased investment in housing can help reduce this pressure, the response is delayed to a number of different factors mentioned in the causal loop diagram overview. Which result in housing shortages even when efforts are made to increase supply
+
+There are some uncertainties that should be considered. This recommendation assumes that international students are a major contributor to housing demand, but other factors such as population growth, limited construction capacity and broader market conditions also influence housing availability. If future data shows that student demand is not the primary cause of housing pressure in certain regions, then policies may need to shift toward redistributing enrollment or focusing more on general housing development. In addition to that, if housing supply can be expanded more quickly than expected, the province may be able to support high enrollment levels without increasing pressure.
+
+To address this issue, several next steps are recommended. First the government should increase investment in student housing through funding and partnerships with universities and private construction companies. Next, enrollment should be adjusted based on regional housing capacity to prevent demand from exceeding supply. Additionally, there should be stronger communication between universities and housing around the region to improve long-term planning. Finally, short term solutions such as temporary housing supports can help reduce immediate pressure while new housing is being developed.
+
+To conclude, additional data would strengthen this analysis, particularly information on where international students are currently living and how many are struggling to find housing. More detailed regional data on housing supply, vacancy trends, and construction timelines would also help the Nova Scotia Minister of Advanced Education make a more informed decision. With better data and a targeted approach, the Minister can effectively balance the financial benefits of international students with the need for stable and accessible housing
+
+## Limitations and Future Work
+
+This analysis has a few important limitations. First, there is no direct data showing where international students are living or how many are struggling to find housing. Because of this, the conclusions are based on general trends rather than exact measurements. The data also looks at regions as a whole, which can hide differences within cities, especially in places like Halifax where housing pressure is higher. In addition, housing issues are affected by many factors, such as population growth and slow construction, not just international students. Finally, the causal loop diagram simplifies the system, so it does not show exactly how strong each relationship is or how long changes take to happen.
+
+Future work should focus on improving the quality of data and making the analysis more detailed. For example, collecting information on where international students live and how many cannot find housing would make the results more accurate. Looking more closely at specific cities would also help identify where the biggest problems are. In addition, creating a model to test different scenarios, such as increasing housing or changing enrollment levels, could help predict future outcomes. Exploring other solutions, like spreading students across different regions or encouraging more housing development, would also give the Minister more options to balance student growth with housing availability.
+
+#### References
+Ayers, T. (2023). CBC. Retrieved from https://www.cbc.ca/news/canada/nova-scotia/wong-says-international-students-need-to-take-responsibility-for-housing-and-jobs-1.6959689
+Canada, S. (2024). Statistics Canada. Retrieved from https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710016304
+Ismail, A. (2025). Amir Ismail Associates. Retrieved from https://www.amirismail.com/canada-2026-study-permit-cap-exemption/#:~:text=The%20Capped%20World:,Translation:%20They%20want%20you.
+WIllick, F. (2025). CBC. Retrieved from https://www.cbc.ca/news/canada/nova-scotia/n-s-universities-grappling-with-budget-shortfalls-amid-financial-challenges-1.7576133
+
+List of Datasets:
+
+1. List of international Students in universities across Nova Scotia  
+
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710016304
+
+2. Dataset containing International students tuition across Nova Scotia 
+
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710004501&cubeTimeFrame.startYear=2024+%2F+2025&cubeTimeFrame.endYear=2025+%2F+2026&referencePeriods=20240101%2C20250101
+
+3. Dataset containing list of housing available for rent across Halifax
+
+https://data-hrm.hub.arcgis.com/datasets/residential-rental-registry/about
+
+Corporation, C. M. (2025, December 11). Canada Mortgage Housing Coporation. Retrieved from Canada Mortgage Housing Coporation: https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/housing-data/data-tables/rental-market/rental-market-report-data-tables
+Portal, N. S. (2026, February 17). Nova Scotia Open Data Portal . Retrieved from Nova Scotia Open Data Portal : https://data.novascotia.ca/browse?sortBy=relevance&page=1&pageSize=20&q=university+
 
