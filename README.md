@@ -22,9 +22,9 @@ The analysis evaluates two policy approaches. First, address the issue in Halifa
 ## Table of Contents
 - [Decision Statement](#decision-statement)
 - [Executive Summary](#executive-summary)
-- [Background](./background.md#background)
+- [Background](./Background.md#international-student-enrollement-in-nova-scotia)
 - [Data Sources](./Data/README.md#university-enrollment-dataset)
-- [Data Wrangling](./wrangling.md#wrangling)
+- [Data Wrangling](./wrangling.md#data-wrangling-process)
 - [Exploratory Findings](./Data/README.md#exploratory-findings)
 - [System Dynamics(Causal Loop Diagram)](#final-causal-loop-diagram-overview)
 - [Analysis](#analysis)
