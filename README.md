@@ -25,21 +25,68 @@ The analysis evaluates two policy approaches. First, address the issue in Halifa
 - [Background](./Background.md#international-student-enrollement-in-nova-scotia)
 - [Data Sources](./Data/README.md#university-enrollment-dataset)
 - [Data Wrangling](./Wrangling.md#data-wrangling-process)
-- [Exploratory Findings](./Data/README.md#exploratory-findings)
+- [Exploratory Findings](#explatory-findings)
 - [System Dynamics(Causal Loop Diagram)](#final-causal-loop-diagram-overview)
 - [Analysis](#analysis)
 - [Decision Recommendations](#decision-recommandations)
 - [Limitations and Future Work](#limitations-and-future-work)
 - [References](#references)
-- [Bar Chart](./IMG/Bar%20Chart.png)
-- [Geographic Map](./IMG/Geographic%20map.png)
-- [Line Chart](./IMG/Line%20Chart%20.png)  
-- [Scatter Plot](./IMG/Scatter%20Plot.png)
 
 
 ## Data Pool: 
 
 Education & Labour 
+
+# Explatory FIndings 
+
+## Visualization 1: Graph showing the Geographic Distribution of Housing Pressure
+
+![Geographic Map](./IMG/Geographic%20map.png)
+
+This geographic map illustrates how student housing pressure is distributed across different regions in Nova Scotia. Each circle represents a specific centre, with the size of the circle corresponding to total student enrollment and the color indicating the level of housing pressure. Darker colors represent higher levels of pressure, while lighter colors indicate lower pressure.
+
+Halifax stands out clearly on this map, as it has both the largest circle and the darkest shading. This indicates that Halifax not only has the highest concentration of students but also faces the most significant housing constraints. The combination of high demand and limited housing supply results in intense competition for available units. In contrast, regions such as Antigonish and Cape Breton display smaller circles and lighter colors, suggesting that while student populations exist in these areas, the pressure on housing markets is considerably lower.
+
+This visualization highlights an important spatial imbalance in housing demand across the province. Rather than being evenly distributed, housing pressure is heavily concentrated in urban centres, particularly Halifax. This suggests that policy interventions and housing investments should be geographically targeted, with a primary focus on high-demand areas. Without addressing this imbalance, students in these regions will likely continue to face difficulty securing affordable and available housing.
+
+## Visualization 2: Relationship between Enrollment and Vacancy Rates
+
+![Scatter Plot](./IMG/Scatter%20Plot.png)
+
+This scatter plot examines the relationship between student enrollment and housing vacancy rates across different centres in Nova Scotia. Each point represents a region, with the horizontal axis showing the number of students and the vertical axis representing the vacancy rate.
+
+The overall pattern of the data suggests a negative relationship between enrollment and vacancy rates. Regions with higher student populations, such as Halifax, tend to have lower vacancy rates, indicating tighter housing markets. Halifax is positioned far to the right of the graph due to its large student population, yet its vacancy rate remains relatively low. This combination suggests that housing supply is not keeping pace with demand, resulting in increased competition among students for available units.
+
+On the other hand, regions with smaller student populations generally show slightly higher vacancy rates, indicating that housing availability is less constrained in those areas. This contrast reinforces the idea that student demand is a key driver of housing pressure. As enrollment increases in a region, available housing becomes more limited unless supply expands accordingly.
+
+This visualization is important because it provides evidence of a structural relationship between student population growth and housing availability. It supports the argument that rising enrollment without corresponding increases in housing supply can lead to shortages, particularly in already high-demand areas like Halifax.
+
+## Visualization 3: Housing Pressure Index by Centre
+
+![Bar Chart](./IMG/Bar%20Chart.png)
+
+This bar chart presents a comparison of the housing pressure index across different centres in Nova Scotia. The housing pressure index is a combined measure that incorporates both student enrollment and vacancy rates to provide a more complete picture of housing demand relative to supply.
+
+Halifax has the highest housing pressure index by a significant margin. This reflects the combined effect of a large student population and low vacancy rates, both of which contribute to a highly competitive housing market. The high index value indicates that students in Halifax face the greatest challenges when trying to secure housing, including higher costs and limited availability.
+
+Other regions, such as Antigonish and Cape Breton, have noticeably lower index values. This suggests that either student populations are smaller, vacancy rates are higher, or both. As a result, housing markets in these areas are less strained, and students may find it easier to secure accommodation.
+
+This visualization is particularly useful because it combines multiple variables into a single measure, allowing for easier comparison across regions. It reinforces the conclusion that housing pressure is not uniform across the province and that Halifax represents the most critical area of concern. This insight is valuable for decision-makers, as it highlights where resources and policy interventions are likely to have the greatest impact.
+## Visualixation 4: Vacancy Rate Trends Over Time
+
+![Line Chart](./IMG/Line%20Chart%20.png) 
+
+This line chart tracks changes in housing vacancy rates across different regions in Nova Scotia from 2020 to 2025. It provides a time-based perspective on how housing availability has evolved in recent years.
+
+The chart shows a clear downward trend in vacancy rates between 2020 and 2022 across most regions. This indicates that housing became increasingly scarce during this period. Several factors may have contributed to this decline, including population growth, increased student enrollment, and limited expansion in housing supply. As vacancy rates fall, it becomes more difficult for students to find available housing, often leading to increased competition and rising rental prices.
+
+After 2022, some regions may show slight stabilization or minor increases in vacancy rates. However, overall levels remain relatively low compared to earlier periods. This suggests that while the situation may have stopped worsening as quickly, the underlying issue of limited housing supply has not been fully resolved.
+
+This visualization is important because it highlights that housing pressure is not only a geographic issue but also a temporal one. The sustained low vacancy rates indicate that housing shortages are not temporary shocks but part of a longer-term trend. This reinforces the need for long-term planning and investment in housing infrastructure to support growing student populations.
+
+### Key Insights and Takeaways from the Visualizations
+
+Overall, these visualizations collectively demonstrate that student housing pressure in Nova Scotia is driven by both geographic concentration and increasing demand over time. The evidence consistently points to Halifax as the most impacted region, where high enrollment and low vacancy rates combine to create significant housing challenges. These insights support the need for targeted, data-driven housing policies that address both immediate shortages and long-term structural imbalances.
 
 ## Final Causal Loop Diagram Overview:
 
