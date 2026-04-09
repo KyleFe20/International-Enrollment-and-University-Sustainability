@@ -132,11 +132,14 @@ Future work should focus on improving the quality of data and making the analysi
 
 #### References
 Ayers, T. (2023). CBC. Retrieved from https://www.cbc.ca/news/canada/nova-scotia/wong-says-international-students-need-to-take-responsibility-for-housing-and-jobs-1.6959689
+
 Canada, S. (2024). Statistics Canada. Retrieved from https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710016304
+
 Ismail, A. (2025). Amir Ismail Associates. Retrieved from https://www.amirismail.com/canada-2026-study-permit-cap-exemption/#:~:text=The%20Capped%20World:,Translation:%20They%20want%20you.
+
 WIllick, F. (2025). CBC. Retrieved from https://www.cbc.ca/news/canada/nova-scotia/n-s-universities-grappling-with-budget-shortfalls-amid-financial-challenges-1.7576133
 
-List of Datasets:
+##### List of Datasets:
 
 1. List of international Students in universities across Nova Scotia  
 
