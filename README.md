@@ -102,7 +102,7 @@ A key leverage point where there could potentially be a shift is strengthening h
 
 For the Nova Scotia Minister of Advanced Education who is the decision maker, the critical tradeoff is between bringing in more international students for revenue and making sure there is enough housing for them. International students pay higher tuition, which helps universities financially. However, if too many students come without enough housing available, it increases housing pressure, raises rent, and makes it harder for both students and local residents to find a place to live. This means the government has to balance how many students are admitted with how much housing is available. Investing in more housing, especially in high demand areas like Halifax, is the best way to reduce this problem and support long-term stability.
 
-![Causal Loop Diagram](img/FinalCLD.png)
+![Causal Loop Diagram](./IMG/FinalCLD.png)
 
 
 ## Analysis 
